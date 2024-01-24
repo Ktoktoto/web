@@ -1,0 +1,200 @@
+body {
+    box-sizing: border-box;
+
+    background-color: #B4C3FF;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin: 0 217px 88px;
+}
+h1 {
+    font-size: 86px;
+    margin: 0 0 2px;
+    color: #00463C;
+}
+h2 {
+    font-size: 28px;
+    font-family: Yandex Sans Logotype, 'Montserrat';
+    color: #00463C;
+    margin: 0  0 50px;
+    padding-top: 69px;
+}
+h3 {
+    font-size: 24px;
+    color:#00463C;
+    margin: 0 0 10px;
+}
+a{
+    text-decoration: none;
+    color: #00463C;
+}
+.button {
+    display: flex;
+    justify-content: center;
+
+    width: 382px;
+    height: 60px;
+    background-color: #00EBC3;
+    border-radius: 25px;
+
+    margin-bottom: 50px;
+}
+.form-group {
+    display: flex;
+    justify-content: center;
+
+    width: 382px;
+    height: 60px;
+    background-color: #00EBC3;
+    border-radius: 25px;
+
+    margin-bottom: 50px;
+}
+.header {
+    height: 930px;
+    font-family:  Yandex Sans Logotype;
+    color: #00463C;
+    display: flex;
+    flex-direction: column;
+}
+.empty {
+    height: 300px;
+}
+.header img {
+    position: absolute;
+    margin: 0;
+    top:0;
+    left:0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about p {
+    width: 796px;
+    margin: 0 0 55px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 155px;
+    background-color: #7D32FF;
+    width: 1006px;
+    border-radius: 33px;
+}
+
+.broadcast {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 155px;
+}
+.schedule {
+    margin-bottom: 155px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #7D32FF;
+    width: 1006px;
+    border-radius: 33px;
+}
+.point {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 41px;
+}
+.schedule img {
+    position: absolute;
+    left: 56px;
+    top: 3100px;
+}
+.time {
+    width: 174px;
+    font-size: 36px;
+}
+.text {
+    width: 584px;
+}
+.text p{
+    margin: 0;
+}
+.route {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 155px;
+}
+#registration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    background-color: #7D32FF;
+    width: 1006px;
+    border-radius: 33px;
+}
+#registration img{
+    position: absolute;
+    left:890px;
+    top:4600px;
+}
+input[type="text"] {
+    color: #006F5E;
+    font-size: 20px;
+    font-family: 'Montserrat';
+
+    border:0;
+    padding-left: 10px;
+    width: 382px;
+    height: 60px;
+    background-color: #00EBC3;
+    border-radius: 25px;
+}
+input[type="submit"]{
+    color: #006F5E;
+    background-color: #00EBC3;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 167px;
+    font-family: 'Yandex Sans Logotype';
+
+    width: 382px;
+    height: 60px;
+    background-color: #00EBC3;
+    border-radius: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.action{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 102px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    font-size: 16px;
+    font-family: 'Yaldevi Colombo Medium';
+    color: black;
+    margin-top: 45px;
+}

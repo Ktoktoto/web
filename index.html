@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ya-reklama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="empty"></div>
+        <img src="img\first.png" alt="key pic">
+
+        <div class="head-text">
+                <h1>Pharm Day</h1>
+            <h3 style="margin-bottom:37px;">10 марта 2024</h3>
+            <a href="#registration"><div class="button" style="margin-bottom: 170px;">
+                <p>Зарегистрироваться</p>
+            </div>
+            </a>
+                <p style="color:#00463C; ;">МОСКВА, арена Мегаспорт</p>
+        </div>    
+        
+        
+        
+    </div>
+    <div class="content">
+        <div class="about">
+            <h2>О ЧЕМ</h2>
+            <p>Поговорим о трендах индустрии фармацевтики и обсудим, как развивается рынок сейчас. Разберёмся, какие рекламные инструменты эффективны и какие площадки выбрать для роста продаж. А ещё рассмотрим реальные кейсы производителей и интернет-аптек. </p>
+        </div>
+        <div class="broadcast">
+            <h2>ТРАНСЛЯЦИЯ</h2>
+            <img src="img\Group 1171275465.png" alt="video">
+        </div>
+        <div class="schedule">
+            <img src="img\1 group.png" alt="pic">
+            <h2>РАСПИСАНИЕ</h2>
+            <div class="point">
+                <div class="time">14:00 — 14:05</div>
+                <div class="text">
+                    <h3>Приветственное слово</h3>
+                    <p>Евгений Соколов, директор по энтерпрайз-коммерции Яндекс</p>
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="time">14:05 — 14:25</div>
+                <div class="text">
+                    <h3>Тренды индустрии: как ищут потребители
+                        в 2023 году</h3>
+                    <p>Тата Саркисян, бизнес-партнёр индустрии «Фарма» Яндекс</p>
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="time">14:25 — 14:45</div>
+                <div class="text">
+                    <h3>Осваивая онлайн: специфика рынка, вызовы и результаты</h3>
+                    <p>Елена Приходько, руководитель группы
+                        по работе с маркетплейсами «Здравсити»</p>
+                </div>
+            </div>
+
+            <div class="point">
+                <div class="time">14:45 — 15:05</div>
+                <div class="text">
+                    <h3>Перерыв</h3>
+                </div>
+            </div>
+
+            <div class="point" style="margin-bottom: 134px;">
+                <div class="time">15:25 — 15:50</div>
+                <div class="text">
+                    <h3>Дискуссия «Из офлайна в онлайн: как фарма развивает бизнес-модели»</h3>
+                    <p>Наталия Прокопьева, председатель совета директоров «Эвалар»Сергей Алифанов, ecommerce lead «Замбон Фарма» в РоссииМаксим Ржезников, head of ecommerce«36,6» / «Горздрав»Ольга Духанова, коммерческий директор фармацевтическая компания «Эгис»
+                        Модератор: Максим Агарёв, руководитель вертикали «Лекарства и БАД» Яндекс Маркет</p>
+                </div>
+            </div>
+        </div>
+        <div class="route">
+            <h2>КАК ДОБРАТЬСЯ</h2>
+            <img src="img\Group 1171275459.png" alt="map">
+        </div>
+        <div id="registration">
+            <h2>РЕГИСТРАЦИЯ</h2>
+            <img src="img\2 group.png" alt="">
+
+            <form action="обработчик.php" method="POST">
+                <div class="action">
+                    <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                
+                    <div class="form-group">
+                    <input type="text" id="phone" name="phone" placeholder="Электронная почта" required>
+                    </div>
+                
+                    <div class="form-group">
+                    <input type="text" id="email" name="email" placeholder="От какой компании" required>
+                    </div>
+                
+                    <div class="form-group">
+                    <input type="text" id="company" name="company" placeholder="Номер телефона" required>
+                    </div>
+                
+                    <div class="form-group">
+                    <input type="text" id="position" name="position" placeholder="Должность" required>
+                    </div>
+                </div>
+                
+                <label class="checkbox-other" style="width: 656px; margin-bottom: 55px; font-size: 14px;">
+                    <input type="checkbox" checked>
+                    <span>Я даю согласие ООО «ЯНДЕКС» (ОГРН 1027700229193) на обработку персональных данных на условиях Политики конфиденциальности в целях регистрации моего участия в мероприятии «Pharma Day 2023» и получения информационных сообщений о нем</span>
+                </label>
+                <input type="submit" value="Отправить">
+            </form>
+
+            
+            <!-- <div class="button">
+                <p>Отправить</p>
+            </div> -->
+        </div>
+    </div>
+    
+    <div class="footer">
+        <img src="img\ya_reklama.svg" alt="logo">
+        <p>©2023 ООО «Яндекс»</p>
+    </div>
+</body>
+
+
+</html>
